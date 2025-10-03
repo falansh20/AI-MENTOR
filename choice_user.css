@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+select, input, textarea, button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #00c6ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0072ff;
+}
+.yt-recommendations {
+  background: rgba(255, 255, 255, 0.1); /* light transparent box */
+  border-left: 5px solid #ff0000; /* YouTube red accent */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-align: left;
+  color: #fff; /* text color */
+}
+
+.yt-recommendations p {
+  font-weight: bold;
+  color: #00ffff; /* title color */
+}
+
+.yt-recommendations ul {
+  list-style-type: square; /* nice bullet points */
+  padding-left: 20px;
+}
+
+.yt-recommendations li {
+  margin: 8px 0;
+}
+
+.yt-recommendations a {
+  color: #ff0000; /* YouTube link color */
+  text-decoration: none;
+}
+
+.yt-recommendations a:hover {
+  text-decoration: underline;
+  color: #ff5555;
+}
+
